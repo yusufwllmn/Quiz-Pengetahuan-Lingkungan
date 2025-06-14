@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resource/css/styles.css">
+    <script src="resource/js/script.js"></script>
+    <title>Mulai Quiz - Quiz Pengetahuan Lingkungan</title>
+</head>
+<body>
+    <!-- Background Decorative Shapes -->
+    <div class="background-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🌱 EcoQuiz</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="active">Quiz</a></li>
+                <li><a href="artikel.html">Artikel</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <div class="quiz-start-container">
+            <div class="quiz-start-header">
+                <h1 class="quiz-start-title">🌍 Quiz Pengetahuan Lingkungan</h1>
+                <p class="quiz-start-subtitle">
+                    Selamat datang di Quiz Pengetahuan Lingkungan! Uji seberapa dalam pemahaman Anda tentang isu-isu lingkungan dan cara menjaga planet kita.
+                </p>
+            </div>
+
+            <div class="quiz-info-cards">
+                <div class="info-card">
+                    <div class="info-icon">📝</div>
+                    <h3>10 Pertanyaan</h3>
+                    <p>Quiz terdiri dari 10 pertanyaan pilihan ganda yang dipilih secara acak</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">⏱️</div>
+                    <h3>Tanpa Batas Waktu</h3>
+                    <p>Kerjakan dengan santai, tidak ada batasan waktu untuk menjawab</p>
+                </div>
+            </div>
+
+            <div class="quiz-rules">
+                <h3 class="rules-title">📋 Aturan Quiz:</h3>
+                <ul class="rules-list">
+                    <li>Bacalah setiap pertanyaan dengan teliti</li>
+                    <li>Pilih satu jawaban yang paling tepat</li>
+                    <li>Setelah menjawab, Anda akan melihat penjelasan dan artikel terkait</li>
+                    <li>Skor akhir akan ditampilkan setelah menyelesaikan semua pertanyaan</li>
+                </ul>
+            </div>
+
+            <div class="quiz-start-actions">
+                <button class="start-quiz-button" onclick="startActualQuiz()">
+                    🚀 Mulai Quiz Sekarang
+                </button>
+                <button class="back-home-button" onclick="goToHome()">
+                    🏠 Kembali ke Home
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

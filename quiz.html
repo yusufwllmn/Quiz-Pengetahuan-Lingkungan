@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resource/css/styles.css">
+        <script src="resource/js/quiz.js"></script>
+    <title>Quiz Pengetahuan Lingkungan</title>
+</head>
+<body>
+    <!-- Background Decorative Shapes -->
+    <div class="background-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🌱 EcoQuiz</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="active">Quiz</a></li>
+                <li><a href="artikel.html">Artikel</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Quiz Container -->
+    <main class="main-container">
+        <div class="quiz-container">
+            <!-- Quiz Header -->
+            <div class="quiz-header">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressBar"></div>
+                </div>
+                <div class="quiz-info">
+                    <span id="questionNumber">Soal 1 dari 10</span>
+                    <span id="scoreDisplay">Skor: 0/100</span>
+                </div>
+            </div>
+
+            <!-- Question Section -->
+            <div class="question-section">
+                <h2 class="question-text" id="questionText">Loading...</h2>
+                
+                <div class="answers-container" id="answersContainer">
+                    <!-- Answers will be populated by JavaScript -->
+                </div>
+
+                <!-- Feedback Section -->
+                <div class="feedback-section" id="feedbackSection" style="display: none;">
+                    <div class="feedback-message" id="feedbackMessage"></div>
+                    <div class="explanation" id="explanation"></div>
+                    <div class="article-link" id="articleLink"></div>
+                    <button class="next-button" id="nextButton" onclick="nextQuestion()">Soal Selanjutnya</button>
+                </div>
+            </div>
+
+            <!-- Quiz Complete Section -->
+            <div class="quiz-complete" id="quizComplete" style="display: none;">
+                <h2 class="complete-title">Quiz Selesai!</h2>
+                <div class="final-score" id="finalScore"></div>
+                <div class="score-message" id="scoreMessage"></div>
+                <div class="complete-buttons">
+                    <button class="home-button" onclick="goHome()">Kembali ke Home</button>
+                    <button class="retry-button" onclick="retryQuiz()">Ulangi Quiz</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

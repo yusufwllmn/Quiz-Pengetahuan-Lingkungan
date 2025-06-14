@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resource/css/styles.css">
+    <script src="resource/js/script.js"></script>
+    <title>EcoQuiz - Quiz Pengetahuan Lingkungan</title>
+</head>
+<body>
+    <!-- Background Decorative Shapes -->
+    <div class="background-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🌱 EcoQuiz</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="quiz-start.html">Quiz</a></li>
+                <li><a href="artikel.html">Artikel</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <div class="hero-content">
+            <h1 class="quiz-title">🌍 EcoQuiz</h1>
+            <p class="quiz-subtitle">
+                Selamat datang di EcoQuiz! Platform pembelajaran interaktif untuk menguji dan meningkatkan pengetahuan Anda tentang lingkungan hidup.
+            </p>
+            
+            <div class="quiz-info-cards" style="margin: 2rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                <div class="info-card">
+                    <div class="info-icon">🧠</div>
+                    <h3>Pengetahuan</h3>
+                    <p>Pelajari fakta-fakta menarik tentang lingkungan</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🎯</div>
+                    <h3>Interaktif</h3>
+                    <p>Quiz yang menarik dengan penjelasan lengkap</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">🌱</div>
+                    <h3>Peduli Bumi</h3>
+                    <p>Tingkatkan kesadaran terhadap planet kita</p>
+                </div>
+            </div>
+
+            <div class="quiz-start-actions" style="margin-top: 2rem;">
+                <button class="start-quiz-button" onclick="startQuiz()">
+                    🚀 Mulai Quiz
+                </button>
+                <button class="back-home-button" onclick="showAbout()" style="background: linear-gradient(45deg, #2196F3, #1976D2);">
+                    📖 Tentang EcoQuiz
+                </button>
+            </div>
+
+            <!-- About Section (Hidden by default) -->
+            <div class="quiz-rules" id="aboutSection" style="display: none; margin-top: 2rem; text-align: left;">
+                <h3 class="rules-title">🌍 Tentang EcoQuiz</h3>
+                <div style="color: #666; line-height: 1.6;">
+                    <p style="margin-bottom: 1rem;">
+                        EcoQuiz adalah platform edukasi yang dirancang untuk meningkatkan kesadaran dan pengetahuan tentang isu-isu lingkungan hidup. 
+                    </p>
+                    <p style="margin-bottom: 1rem;">
+                        Melalui quiz interaktif, Anda dapat belajar tentang berbagai topik lingkungan seperti perubahan iklim, konservasi, energi terbarukan, dan banyak lagi.
+                    </p>
+                    <p>
+                        Mari bersama-sama menjadi bagian dari solusi untuk menjaga planet kita! 🌱
+                    </p>
+                </div>
+                <button class="next-button" onclick="hideAbout()" style="margin-top: 1rem;">
+                    Tutup
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
