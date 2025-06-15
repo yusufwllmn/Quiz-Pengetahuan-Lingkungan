@@ -10,7 +10,7 @@ const quizDatabase = [
         ],
         correctAnswer: 2,
         explanation: "Teknologi membantu manusia memantau kondisi lingkungan (seperti kualitas udara, air, cuaca), memproses data lingkungan (misalnya, sistem pemodelan iklim), dan mengembangkan solusi (misalnya, energi terbarukan, kendaraan listrik).",
-        articleUrl: "/page/artikel-1.html"
+        articleUrl: "page/artikel-3.html"
     },
     {
         question: "Teknologi Internet of Things (IoT) digunakan dalam pengelolaan lingkungan untuk:",
@@ -22,7 +22,7 @@ const quizDatabase = [
         ],
         correctAnswer: 0,
         explanation: "IoT memanfaatkan sensor-sensor yang terhubung internet untuk mengumpulkan data real-time, misalnya dalam irigasi pintar, pengelolaan limbah, dan pemantauan kualitas udara",
-        articleUrl: "/page/artikel-1.html"
+        articleUrl: "page/artikel-3.html"
     },
     {
         question: "Salah satu manfaat utama dari penggunaan Sistem Informasi Geografis (SIG) dalam pengelolaan lingkungan adalah:",
@@ -34,7 +34,7 @@ const quizDatabase = [
         ],
         correctAnswer: 2,
         explanation: "SIG membantu memetakan dan menganalisis data spasial, seperti deforestasi, banjir, polusi, hingga konservasi habitat. Data ini penting untuk pengambilan keputusan.",
-        articleUrl: "/page/artikel-1.html"
+        articleUrl: "page/artikel-3.html"
     },
     {
         question: "Teknologi apa yang dapat mengurangi polusi udara di kota besar?",
@@ -46,7 +46,7 @@ const quizDatabase = [
         ],
         correctAnswer: 3,
         explanation: "Penggunaan kendaraan listrik, sistem transportasi publik cerdas, filter udara, serta peralihan dari energi fosil ke energi bersih membantu menekan polusi.",
-        articleUrl: "/page/artikel-1.html"
+        articleUrl: "page/artikel-1.html"
     },
     {
         question: "Salah satu dampak negatif penggunaan teknologi informasi terhadap lingkungan adalah?",
@@ -58,7 +58,7 @@ const quizDatabase = [
         ],
         correctAnswer: 3,
         explanation: "Perangkat elektronik yang usang menghasilkan limbah elektronik (e-waste) yang berbahaya jika tidak didaur ulang dengan benar, mengandung bahan beracun seperti timbal, merkuri, dan kadmium.",
-        articleUrl: "/page/artikel-1.html"
+        articleUrl: "page/artikel-2.html"
     },
     {
         question: "Apa manfaat pemanfaatan kecerdasan buatan (AI) dalam pengelolaan lingkungan?",
@@ -70,7 +70,7 @@ const quizDatabase = [
         ],
         correctAnswer: 0,
         explanation: "AI dapat menganalisis data cuaca, gempa, maupun tsunami untuk memberikan prediksi dini, mempercepat respon bencana, dan mengurangi korban.",
-        articleUrl: "/page/artikel-1.html"
+        articleUrl: "page/artikel-3.html"
     },
     {
         question: "Mengapa data satelit penting dalam pemantauan perubahan iklim?",
@@ -82,7 +82,7 @@ const quizDatabase = [
         ],
         correctAnswer: 1,
         explanation: "Satelit mengumpulkan data atmosfer, suhu, tutupan es, kelembaban tanah, dan tingkat karbon di atmosfer, penting untuk riset iklim.",
-        articleUrl: "/page/artikel-1.html"
+        articleUrl: "page/artikel-3.html"
     },
     {
         question: "Manakah berikut ini contoh penggunaan teknologi ramah lingkungan?",
@@ -94,7 +94,7 @@ const quizDatabase = [
         ],
         correctAnswer: 0,
         explanation: "Solar panel, turbin angin, dan bioenergi mengurangi ketergantungan pada bahan bakar fosil, menekan emisi karbon.",
-        articleUrl: "/page/artikel-2.html"
+        articleUrl: "page/artikel-2.html"
     },
     {
         question: "Bagaimana teknologi blockchain berkontribusi pada pengelolaan lingkungan?",
@@ -106,7 +106,7 @@ const quizDatabase = [
         ],
         correctAnswer: 1,
         explanation: "Blockchain mencatat data lingkungan secara permanen, transparan, dan tidak bisa dimanipulasi, mendukung kepercayaan publik dalam laporan keberlanjutan dan pengawasan emisi karbon.",
-        articleUrl: "/page/artikel-2.html"
+        articleUrl: "page/artikel-3.html"
     },
     {
         question: "Bagaimana teknologi cloud computing dapat mendukung upaya pelestarian lingkungan?",
@@ -118,7 +118,7 @@ const quizDatabase = [
         ],
         correctAnswer: 1,
         explanation: "Cloud computing memungkinkan penyimpanan dan pemrosesan data dilakukan di pusat data bersama (shared data center) yang lebih efisien dalam penggunaan energi daripada ribuan server lokal. Ini mengurangi konsumsi energi total dan emisi karbon.",
-        articleUrl: "/page/artikel-2.html"
+        articleUrl: "page/artikel-3.html"
     },
     {
         question: ".Mengapa Green IT penting bagi perusahaan dalam hal perubahan iklim?",
@@ -130,7 +130,7 @@ const quizDatabase = [
         ],
         correctAnswer: 1,
         explanation: "Karena Green IT membantu perusahaan melacak dan mengurangi emisi gas rumah kaca serta limbah elektronik beracun.",
-        articleUrl: "/page/artikel-2.html"
+        articleUrl: "page/artikel-4.html"
     },
     {
         question: "Apa tujuan utama dari Green IT (teknologi informasi hijau)",
@@ -142,7 +142,7 @@ const quizDatabase = [
         ],
         correctAnswer: 2,
         explanation: "Untuk meminimalkan efek negatif operasi TI terhadap lingkungan.",
-        articleUrl: "/page/artikel-2.html"
+        articleUrl: "page/artikel-5.html"
     },
     {
         question: "Apa yang diharapkan akan dilakukan oleh peraturan baru dari U.S. Securities and Exchange Commission dan European Union's Corporate Sustainability Reporting Directive terkait praktik komputasi hijau?",
@@ -154,7 +154,7 @@ const quizDatabase = [
         ],
         correctAnswer: 2,
         explanation: "Menghasilkan minat yang lebih besar dalam penerapan praktik komputasi hijau.",
-        articleUrl: "/page/artikel-2.html"
+        articleUrl: "page/artikel-4.html"
     },
     {
         question: "Apa tujuan utama yang dapat ditetapkan oleh organisasi TI terkait praktik ramah lingkungan?",
@@ -166,7 +166,7 @@ const quizDatabase = [
         ],
         correctAnswer: 3,
         explanation: "Mengurangi dampak lingkungan dengan menetapkan standar dan regulasi yang ramah lingkungan.",
-        articleUrl: "/page/artikel-2.html"
+        articleUrl: "page/artikel-4.html"
     },
     {
         question: "Berikut ini yang BUKAN merupakan solusi Green IT adalah?",
@@ -178,7 +178,7 @@ const quizDatabase = [
         ],
         correctAnswer: 2,
         explanation: "Mengganti perangkat elektronik setiap tahun.",
-        articleUrl: "/page/artikel-2.html"
+        articleUrl: "page/artikel-5.html"
     }
 ];
 
