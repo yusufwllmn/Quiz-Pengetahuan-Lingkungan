@@ -15,7 +15,42 @@ const artikelData = [
         emoji: "⚡",
         deskripsi: "Mengenal berbagai jenis energi terbarukan",
         file: "/page/artikel-2.html"
-    }
+    },
+    {
+        id: 3,
+        judul: "Enabling Green IOT",
+        emoji: "🌱",
+        deskripsi: "Mengenal tentang Green IOT",
+        file: "/page/artikel-3.html",
+    },
+    {
+        id: 4,
+        judul: "Towards Sustainable Development A Review of Green",
+        emoji: "🛠️",
+        deskripsi: "Mengenal lebih jauh isu energi terbarukan, teknologi lingkungan, atau pembangunan berkelanjutan.",
+        file: "/page/artikel-4.html",
+    },
+    {
+        id: 5,
+        judul: "Apa itu Green IT?",
+        emoji: "💻🌍",
+        deskripsi: "Definisi dan mengenal Green IT.",
+        file: "/page/artikel-5.html",
+    },
+    {
+        id: 6,
+        judul: "Pengaruh Perkembangan Teknologi Informasi Lingkungan",
+        emoji: "🌱💻",
+        deskripsi: "Pengaruh perkembangan IT pada lingkungan.",
+        file: "/page/artikel-6.html",
+    },
+    {
+        id: 7,
+        judul: "Perkembangan Teknologi & Keberlanjutan Lingkungan",
+        emoji: "📚",
+        deskripsi: "Mengenal tentang keberlanjutan lingkungan dan teknologi.",
+        file: "/page/artikel-7.html",
+    },
 ];
 
 // Fungsi untuk memuat daftar artikel

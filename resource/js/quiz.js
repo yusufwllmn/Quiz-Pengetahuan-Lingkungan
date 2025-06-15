@@ -16,7 +16,7 @@ const quizDatabase = [
         question: "Teknologi Internet of Things (IoT) digunakan dalam pengelolaan lingkungan untuk:",
         answers: [
             "Mengontrol pertumbuhan tanaman secara otomatis",
-            "Menambah emisi karbon di atmosfer",
+            "Menambah jejak karbon di lingkungan",
             "Mengurangi penggunaan energi terbarukan",
             "Meningkatkan kebutuhan plastik"
         ],
@@ -25,159 +25,159 @@ const quizDatabase = [
         articleUrl: "/page/artikel-1.html"
     },
     {
-        question: "Duis aute irure dolor in reprehenderit in voluptate velit esse?",
+        question: "Salah satu manfaat utama dari penggunaan Sistem Informasi Geografis (SIG) dalam pengelolaan lingkungan adalah:",
         answers: [
-            "Cillum dolore eu fugiat",
-            "Nulla pariatur excepteur",
-            "Sint occaecat cupidatat",
-            "Non proident sunt"
+            "Membuat polusi semakin meningkat",
+            "Menghitung pendapatan perusahaan",
+            "Memetakan kerusakan hutan dan perubahan tutupan lahan",
+            "Mengurangi kebutuhan edukasi lingkungan"
         ],
         correctAnswer: 2,
-        explanation: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        explanation: "SIG membantu memetakan dan menganalisis data spasial, seperti deforestasi, banjir, polusi, hingga konservasi habitat. Data ini penting untuk pengambilan keputusan.",
         articleUrl: "/page/artikel-1.html"
     },
     {
-        question: "At vero eos et accusamus et iusto odio dignissimos ducimus?",
+        question: "Teknologi apa yang dapat mengurangi polusi udara di kota besar?",
         answers: [
-            "Qui blanditiis praesentium",
-            "Voluptatum deleniti atque",
-            "Corrupti quos dolores",
-            "Et quas molestias excepturi"
+            "Kendaraan dengan bahan bakar pertamax",
+            "Pabrik pembakar batubara",
+            "Diesel generator",
+            "Mobil listrik"
+        ],
+        correctAnswer: 3,
+        explanation: "Penggunaan kendaraan listrik, sistem transportasi publik cerdas, filter udara, serta peralihan dari energi fosil ke energi bersih membantu menekan polusi.",
+        articleUrl: "/page/artikel-1.html"
+    },
+    {
+        question: "Salah satu dampak negatif penggunaan teknologi informasi terhadap lingkungan adalah?",
+        answers: [
+            "Penggunaan energi hijau",
+            "Meningkatkan efisiensi produksi",
+            "Konservasi lahan",
+            "Limbah elektronik (e-waste)"
+        ],
+        correctAnswer: 3,
+        explanation: "Perangkat elektronik yang usang menghasilkan limbah elektronik (e-waste) yang berbahaya jika tidak didaur ulang dengan benar, mengandung bahan beracun seperti timbal, merkuri, dan kadmium.",
+        articleUrl: "/page/artikel-1.html"
+    },
+    {
+        question: "Apa manfaat pemanfaatan kecerdasan buatan (AI) dalam pengelolaan lingkungan?",
+        answers: [
+            "Membantu memprediksi bencana alam secara lebih akurat",
+            "Menambah volume limbah elektronik",
+            "Mempercepat penebangan hutan liar",
+            "Meningkatkan polusi udara di perkotaan"
+        ],
+        correctAnswer: 0,
+        explanation: "AI dapat menganalisis data cuaca, gempa, maupun tsunami untuk memberikan prediksi dini, mempercepat respon bencana, dan mengurangi korban.",
+        articleUrl: "/page/artikel-1.html"
+    },
+    {
+        question: "Mengapa data satelit penting dalam pemantauan perubahan iklim?",
+        answers: [
+            "Tidak berguna karena datanya tidak akurat",
+            "Dapat memberikan informasi tentang suhu, tutupan es, dan polusi secara global",
+            "Hanya digunakan untuk keperluan militer",
+            "Mempercepat eksploitasi sumber daya alam"
         ],
         correctAnswer: 1,
-        explanation: "Et harum quidem rerum facilis est et expedita distinctio nam libero tempore.",
+        explanation: "Satelit mengumpulkan data atmosfer, suhu, tutupan es, kelembaban tanah, dan tingkat karbon di atmosfer, penting untuk riset iklim.",
         articleUrl: "/page/artikel-1.html"
     },
     {
-        question: "Temporibus autem quibusdam et aut officiis debitis aut rerum?",
+        question: "Manakah berikut ini contoh penggunaan teknologi ramah lingkungan?",
         answers: [
-            "Necessitatibus saepe eveniet",
-            "Ut et voluptates repudiandae",
-            "Sint et molestiae non",
-            "Recusandae itaque earum"
+            "Solar panel untuk menghasilkan listrik",
+            "Pabrik berbahan bakar batubara",
+            "Kendaraan diesel tua",
+            "Generator berbahan bakar bensin"
         ],
         correctAnswer: 0,
-        explanation: "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.",
-        articleUrl: "/page/artikel-1.html"
-    },
-    {
-        question: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem?",
-        answers: [
-            "Accusantium doloremque laudantium",
-            "Totam rem aperiam",
-            "Eaque ipsa quae",
-            "Ab illo inventore"
-        ],
-        correctAnswer: 3,
-        explanation: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
-        articleUrl: "/page/artikel-1.html"
-    },
-    {
-        question: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit?",
-        answers: [
-            "Amet consectetur adipisci",
-            "Velit sed quia non",
-            "Numquam eius modi",
-            "Tempora incidunt ut"
-        ],
-        correctAnswer: 2,
-        explanation: "Magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est.",
-        articleUrl: "/page/artikel-1.html"
-    },
-    {
-        question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
-        answers: [
-            "Corporis suscipit laboriosam",
-            "Nisi ut aliquid ex",
-            "Ea commodi consequatur",
-            "Quis autem vel eum"
-        ],
-        correctAnswer: 0,
-        explanation: "Nisi ut aliquid ex ea commodi consequatur quis autem vel eum iure reprehenderit.",
+        explanation: "Solar panel, turbin angin, dan bioenergi mengurangi ketergantungan pada bahan bakar fosil, menekan emisi karbon.",
         articleUrl: "/page/artikel-2.html"
     },
     {
-        question: "Quis autem vel eum iure reprehenderit qui in ea voluptate?",
+        question: "Bagaimana teknologi blockchain berkontribusi pada pengelolaan lingkungan?",
         answers: [
-            "Velit esse quam nihil",
-            "Molestiae consequatur vel",
-            "Illum qui dolorem eum",
-            "Fugiat quo voluptas"
+            "Mempercepat reboisasi",
+            "Mencatat data lingkungan secara transparan dan tidak dapat diubah",
+            "Menyembunyikan data limbah industri dari publik",
+            "Meningkatkan penggunaan kertas untuk dokumentasi"
         ],
         correctAnswer: 1,
-        explanation: "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur at vero eos et accusamus.",
+        explanation: "Blockchain mencatat data lingkungan secara permanen, transparan, dan tidak bisa dimanipulasi, mendukung kepercayaan publik dalam laporan keberlanjutan dan pengawasan emisi karbon.",
         articleUrl: "/page/artikel-2.html"
     },
     {
-        question: "Et harum quidem rerum facilis est et expedita distinctio?",
+        question: "Bagaimana teknologi cloud computing dapat mendukung upaya pelestarian lingkungan?",
         answers: [
-            "Nam libero tempore",
-            "Cum soluta nobis",
-            "Est eligendi optio",
-            "Cumque nihil impedit"
+            "Meningkatkan konsumsi perangkat keras individu",
+            "Mengurangi penggunaan energi dengan konsolidasi server",
+            "Memperbanyak cetakan dokumen kertas",
+            "Mempercepat penambangan bahan tambang"
+        ],
+        correctAnswer: 1,
+        explanation: "Cloud computing memungkinkan penyimpanan dan pemrosesan data dilakukan di pusat data bersama (shared data center) yang lebih efisien dalam penggunaan energi daripada ribuan server lokal. Ini mengurangi konsumsi energi total dan emisi karbon.",
+        articleUrl: "/page/artikel-2.html"
+    },
+    {
+        question: ".Mengapa Green IT penting bagi perusahaan dalam hal perubahan iklim?",
+        answers: [
+            "Karena Green IT memungkinkan perusahaan untuk meningkatkan emisi gas rumah kaca.",
+            "Karena Green IT membantu perusahaan melacak dan mengurangi emisi gas rumah kaca serta limbah elektronik beracun.",
+            "Karena Green IT hanya berfokus pada peningkatan keuntungan tanpa mempertimbangkan dampak lingkungan.",
+            "Karena Green IT membebaskan perusahaan dari kewajiban untuk mematuhi regulasi lingkungan."
+        ],
+        correctAnswer: 1,
+        explanation: "Karena Green IT membantu perusahaan melacak dan mengurangi emisi gas rumah kaca serta limbah elektronik beracun.",
+        articleUrl: "/page/artikel-2.html"
+    },
+    {
+        question: "Apa tujuan utama dari Green IT (teknologi informasi hijau)",
+        answers: [
+            "Untuk meningkatkan penggunaan bahan berbahaya dalam produk TI.",
+            "Untuk memaksimalkan konsumsi energi pada seluruh siklus hidup produk.",
+            "Untuk meminimalkan efek negatif operasi TI terhadap lingkungan.",
+            "Untuk mengurangi biodegradabilitas produk yang tidak terpakai."
         ],
         correctAnswer: 2,
-        explanation: "Cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.",
+        explanation: "Untuk meminimalkan efek negatif operasi TI terhadap lingkungan.",
         articleUrl: "/page/artikel-2.html"
     },
     {
-        question: "Itaque earum rerum hic tenetur a sapiente delectus?",
+        question: "Apa yang diharapkan akan dilakukan oleh peraturan baru dari U.S. Securities and Exchange Commission dan European Union's Corporate Sustainability Reporting Directive terkait praktik komputasi hijau?",
         answers: [
-            "Ut aut reiciendis voluptatibus",
-            "Maiores alias consequatur",
-            "Aut perferendis doloribus",
-            "Asperiores repellat"
-        ],
-        correctAnswer: 3,
-        explanation: "Maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-        articleUrl: "/page/artikel-2.html"
-    },
-    {
-        question: "On the other hand, we denounce with righteous indignation?",
-        answers: [
-            "Dislike men who are",
-            "So beguiled and demoralized",
-            "By the charms of pleasure",
-            "Of the moment so blinded"
-        ],
-        correctAnswer: 0,
-        explanation: "These cases are perfectly simple and easy to distinguish in a free hour.",
-        articleUrl: "/page/artikel-2.html"
-    },
-    {
-        question: "In a free hour, when our power of choice is untrammelled?",
-        answers: [
-            "When nothing prevents",
-            "Our being able to do",
-            "What we like best",
-            "Every pleasure is to be welcomed"
-        ],
-        correctAnswer: 3,
-        explanation: "Every pleasure is to be welcomed and every pain avoided but in certain circumstances.",
-        articleUrl: "/page/artikel-2.html"
-    },
-    {
-        question: "But in certain circumstances and owing to the claims of duty?",
-        answers: [
-            "Or the obligations of business",
-            "It will frequently occur",
-            "That pleasures have to be repudiated",
-            "And annoyances accepted"
+            "Mendorong perusahaan untuk mengabaikan dampak lingkungan dari operasi TI mereka.",
+            "Mewajibkan perusahaan untuk meningkatkan emisi gas rumah kaca mereka.",
+            "Menghasilkan minat yang lebih besar dalam penerapan praktik komputasi hijau.",
+            "Mengurangi kebutuhan perusahaan untuk memperbarui infrastruktur TI mereka."
         ],
         correctAnswer: 2,
-        explanation: "The wise man therefore always holds in these matters to this principle of selection.",
+        explanation: "Menghasilkan minat yang lebih besar dalam penerapan praktik komputasi hijau.",
         articleUrl: "/page/artikel-2.html"
     },
     {
-        question: "The wise man therefore always holds in these matters?",
+        question: "Apa tujuan utama yang dapat ditetapkan oleh organisasi TI terkait praktik ramah lingkungan?",
         answers: [
-            "To this principle of selection",
-            "He rejects pleasures to secure",
-            "Other greater pleasures",
-            "Or else he endures pains"
+            "Meningkatkan konsumsi daya untuk mendukung pertumbuhan infrastruktur.",
+            "Memaksimalkan penggunaan sumber daya tak terbarukan untuk efisiensi biaya.",
+            "Mengabaikan jejak karbon untuk fokus pada inovasi teknologi.",
+            "Mengurangi dampak lingkungan dengan menetapkan standar dan regulasi yang ramah lingkungan."
         ],
-        correctAnswer: 0,
-        explanation: "He rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.",
+        correctAnswer: 3,
+        explanation: "Mengurangi dampak lingkungan dengan menetapkan standar dan regulasi yang ramah lingkungan.",
+        articleUrl: "/page/artikel-2.html"
+    },
+    {
+        question: "Berikut ini yang BUKAN merupakan solusi Green IT adalah?",
+        answers: [
+            "Menggunakan energi terbarukan",
+            "Mengoptimalkan penggunaan pusat data",
+            "Mengganti perangkat elektronik setiap tahun",
+            "Mendaur ulang perangkat lama"
+        ],
+        correctAnswer: 2,
+        explanation: "Mengganti perangkat elektronik setiap tahun.",
         articleUrl: "/page/artikel-2.html"
     }
 ];
