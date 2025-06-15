@@ -1,27 +1,27 @@
 // Quiz Database
 const quizDatabase = [
     {
-        question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+        question: "Apa peran utama teknologi dalam pengelolaan lingkungan?",
         answers: [
-            "Lorem ipsum dolor sit",
-            "Consectetur adipiscing elit",
-            "Sed do eiusmod tempor",
-            "Incididunt ut labore"
+            "Meningkatkan produksi limbah industri",
+            "Mempermudah eksploitasi sumber daya alam",
+            "Memantau dan mengelola dampak lingkungan",
+            "Meningkatkan konsumsi energi fosil"
         ],
-        correctAnswer: 1,
-        explanation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        correctAnswer: 2,
+        explanation: "Teknologi membantu manusia memantau kondisi lingkungan (seperti kualitas udara, air, cuaca), memproses data lingkungan (misalnya, sistem pemodelan iklim), dan mengembangkan solusi (misalnya, energi terbarukan, kendaraan listrik).",
         articleUrl: "/page/artikel-1.html"
     },
     {
-        question: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?",
+        question: "Teknologi Internet of Things (IoT) digunakan dalam pengelolaan lingkungan untuk:",
         answers: [
-            "Ut enim ad minim veniam",
-            "Quis nostrud exercitation",
-            "Ullamco laboris nisi",
-            "Ut aliquip ex ea commodo"
+            "Mengontrol pertumbuhan tanaman secara otomatis",
+            "Menambah emisi karbon di atmosfer",
+            "Mengurangi penggunaan energi terbarukan",
+            "Meningkatkan kebutuhan plastik"
         ],
         correctAnswer: 0,
-        explanation: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        explanation: "IoT memanfaatkan sensor-sensor yang terhubung internet untuk mengumpulkan data real-time, misalnya dalam irigasi pintar, pengelolaan limbah, dan pemantauan kualitas udara",
         articleUrl: "/page/artikel-1.html"
     },
     {
