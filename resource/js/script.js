@@ -118,3 +118,26 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// ...existing code...
+
+// Burger menu functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.getElementById('burgerMenu');
+    const navLinks = document.getElementById('navLinks');
+    if (burger && navLinks) {
+        burger.addEventListener('click', function() {
+            burger.classList.toggle('open');
+            navLinks.classList.toggle('active');
+        });
+        // Optional: close menu when link clicked (mobile UX)
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                burger.classList.remove('open');
+                navLinks.classList.remove('active');
+            });
+        });
+    }
+});
+// ...existing code...
+
