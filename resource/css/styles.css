@@ -241,6 +241,56 @@ ul.rules-list {
     }
 }
 
+/* Quiz Rules Card mirip info-card */
+.quiz-rules {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+    margin: 2rem 0 1.5rem 0;
+}
+.quiz-rules:hover {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #4CAF50;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(76, 175, 80, 0.10);
+}
+.rules-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c5530;
+    margin-bottom: 1rem;
+}
+.rules-list {
+    list-style: disc inside;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.7;
+    padding-left: 1rem;
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+}
+.rules-list li {
+    margin-bottom: 0.7rem;
+}
+
+@media (max-width: 600px) {
+    .quiz-rules {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+    .rules-title {
+        font-size: 1rem;
+    }
+    .rules-list {
+        font-size: 0.95rem;
+    }
+}
+
 /* =========================
    JUDUL RESPONSIVE
    ========================= */
